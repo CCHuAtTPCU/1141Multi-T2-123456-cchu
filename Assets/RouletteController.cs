@@ -14,7 +14,8 @@ public class RouletteController : MonoBehaviour
 
     void Update()
     {
-        // 設定旋轉速度
+        //V2 edit
+        // setup旋轉速度
         if (Input.GetMouseButtonDown(0))
         {
             this.rotSpeed = 10;
